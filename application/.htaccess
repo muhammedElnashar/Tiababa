@@ -1,0 +1,13 @@
+<IfModule authz_core_module>
+    Require all denied
+    <Files "services.php">
+        Require all granted
+    </Files>
+</IfModule>
+
+<IfModule !authz_core_module>
+    Deny from all
+    <Files "services.php">
+        Allow from all
+    </Files>
+</IfModule>

@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/favicon.png" rel="icon" />
+  <title>Doxe | Documentation </title>
+  <meta name="description" content="Your ThemeForest item Name and description">
+  <meta name="author" content="Codericks">
+
+<!-- Stylesheet
+  ============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End --> 
+
+<!-- Document Wrapper   
+  =============================== -->
+  <div id="main-wrapper"> 
+
+  <!-- Header
+    ============================ -->
+    <header id="header" class="sticky-top"> 
+      <!-- Navbar -->
+      <nav class="primary-menu navbar bg-lights navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- Logo --> 
+          <a class="logo ml-md-3" href="#" title="iDocs Template"> <img width="50%" src="assets/images/logo.png" alt="iDocs Template"/> </a> 
+          
+          <!-- Logo End -->
+
+          <!-- Navbar Toggler -->
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+
+          <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li><a target="_blank" href="https://codecanyon.net/user/codericks/portfolio">Visit Codecanyon Portfolio</a></li>
+                <li><a target="_blank" href="https://codecanyon.net/user/codericks#contact?ref=codericks">Support</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar End --> 
+      </header>
+      <!-- Header End --> 
+
+  <!-- Content ============================ -->
+    <div id="content" role="main">
+
+
+
+      <!-- Sidebar Navigation ============================ -->
+      <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column ">
+            <li class="nav-item"><a class="nav-link active" href="#doc_start">Overview</a></li>
+            <li class="nav-item"><a class="nav-link" href="#doc_install">Installation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#doc_guide">Quick Start Guide</a></li>
+
+
+            <li class="nav-item"><a class="nav-link" href="#doc_site">Admin Panel</a>
+              <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#doc_site">Site Settings</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_payment">Payment Settings</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_users">Manage Users</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_service">Manage Service</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_plans">Manage Plans</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_pages">Manage Pages</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_faqs">Manage Faqs</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_blogs">Manage Blogs</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#doc_Subscriptions">User Panel</a>
+              <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#doc_Subscriptions">Subscriptions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_chamber">Manage chanbers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_staffs">Manage Staffs</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_department">Manage Department</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_patients">Manage Patients</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_drugs">Manage Drugs</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_booking">Booking Appointments</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_appointments">Manage Appointments</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_prescription">Prescription Settings</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_prescripted">Manage Prescriptions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#doc_profile">Manage Profile</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item"><a class="nav-link" href="#docs_zoom">Zoom Integration</a></li>
+            <li class="nav-item"><a class="nav-link" href="#docs_payouts">Payouts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#docs_cdomain">Custom Domain</a></li>
+
+            <li class="nav-item"><a class="nav-link" href="#doc_verify">Doctors Verification</a></li>
+            <li class="nav-item"><a class="nav-link" href="#doc_staffp">Staff Panel</a></li>
+            <li class="nav-item"><a class="nav-link" href="#doc_patientp">Patient Panel</a></li>
+            <li class="nav-item"><a class="nav-link" href="#doc_corn">Cron Jobs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#doc_faq">FAQ</a></li>
+        </ul>
+      </div>
+
+
+
+
+
+
+    <!-- Docs Content ============================ -->
+      <div class="idocs-content">
+        <div class="container"> 
+          
+        <!-- Getting Started ============================ -->
+          <section id="doc_start">
+              <h3>Documentation </h3>
+              <h5 class="mb-1">Doxe - SaaS Doctors Chamber, Prescription & Appointment Software</h5>
+              <p>Thank you so much for purchasing our item from Codecanyon.</p>
+              <hr>
+              <div class="row">
+                  <div class="col-sm-6 col-lg-4">
+                    <ul class="list-unstyled">
+                     <li><strong class="font-weight-700">Created:</strong> 8 October 2020</li>
+                   </ul>
+                 </div>
+                  <div class="col-sm-6 col-lg-4">
+                    <ul class="list-unstyled">
+                     <li><strong>Author:</strong> <a href="https://codecanyon.net/user/codericks" target="_blank">Codericks</a></li>
+                   </ul>
+                  </div>
+              </div>
+              <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please feel free to email via <a target="_blank" href="https://codecanyon.net/user/codericks#contact?ref=codericks">Item Support Page</a>.</p>
+          </section>
+        <!-- Getting Started end ============================ -->
+
+          
+          <hr class="divider">
+
+          
+        <!-- Quick Install ============================ -->
+          <section id="doc_install">
+
+            <h3>Installation</h3>
+            <p>This installation process should take no more than 10 minutes if followed and done correctly.</p>
+            <p class="alert alert-success"><strong>Watch a <b>video tutorial</b>
+               on how you can install the script with a cPanel based hosting.</strong></p>
+
+            <div class="embed-responsive embed-responsive-16by9 mb-5">
+              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/730304712" allowfullscreen></iframe>
+            </div> 
+            <hr>
+            <h4 class="text-primary"> or follow these steps</h4>
+            <h4 class="mt-4 mb-0">1. Prepare the Database</h4>
+
+            <div class="row mt-0">
+              <div class="col-4 my-3 text-center">
+                <h6 class="pt-2">Go to Cpanel and Click MySQL® Databases</h6>
+                <a class="popup-img" href="assets/images/db_1.jpg"><img class="img-fluid border" src="assets/images/db_1.jpg" alt=""></a>
+              </div>
+
+              <div class="col-4 my-3 text-center">
+                <h6 class="pt-2">Create New Database</h6>
+                <a class="popup-img" href="assets/images/db_2.jpg"><img class="img-fluid border" src="assets/images/db_2.jpg" alt=""></a>
+              </div>
+
+              <div class="col-4 my-3 text-center">
+                <h6 class="pt-2">Add New User</h6>
+                <a class="popup-img" href="assets/images/db_3.jpg"><img class="img-fluid border" src="assets/images/db_3.jpg" alt=""></a>
+              </div>
+
+              <div class="col-4 my-3 text-center">
+                <h6 class="pt-2">Add User To Database</h6>
+                <a class="popup-img" href="assets/images/db_4.jpg"><img class="img-fluid border" src="assets/images/db_4.jpg" alt=""></a>
+              </div>
+
+              <div class="col-4 my-3 text-center">
+                <h6 class="pt-2">Set User Permissions</h6>
+                <a class="popup-img" href="assets/images/db_5.jpg"><img class="img-fluid border" src="assets/images/db_5.jpg" alt=""></a>
+              </div>
+            </div>
+         
+
+            <h4>2. Upload Script</h4>
+            <ul>
+              <li>Upload script files to your host (The script can be uploaded either on a subdomain, domain or subfolder, depending on your needs.)</li>
+            </ul>
+
+            <h4>3. Start Installation</h4>
+            <ul>
+              <li>Start the installation process add /install after your domain path. (ex: https://yourdomain.com/install)</li>
+              <li>Follow the steps in the installation process</li>
+            </ul>
+
+            <div class="alert alert-info mb-2">
+              <p>After installation, if you get "404 Not Found" to click any link of your site, please re-upload only the <code>.htaccess</code> file on your project root folder</p>
+            </div>
+
+            <a class="btn btn-success btn-sm" target="_blank" href="https://drive.google.com/file/d/1uUHZZxY63huSJNU6dmr2doud2KpRoSTP/view?usp=sharing">Download .htaccess file here</a>
+
+          </section>
+        <!-- Quick Install end ============================ -->
+
+          <hr class="divider">
+
+
+          
+        <!-- Quick Start ============================ -->
+          <section id="doc_guide">
+            <h3 class="mb-2">Quick Start</h3>
+           
+            <p>After run project, you will be see the login page like this.</p>
+            <p><b>For access use this: www.domain.com/login</b></p>
+
+            <h4 class="mt-5 mb-2">Admin</h4>
+            <p><b>✓  Change Admin Password:</b> If you want to change Admin password you should go to "Change Password" section from left sidebar and change the password.
+            </p>
+
+            <p><b>✓  Manage Website Settings:</b> If you want to add your site name, title, email, phone, about, logo, favicon, emails, currency & basic seo options, social links you need to go "Dashboard > Settings" section from left sidebar. you can manage all options here.</p>
+
+            <p><b>✓  Manage Payment Settings:</b> If you want to manage your paypal & stripe payment options, you need to go "Dashboard > Payment Settings" section from left sidebar. you can also enable/disable payments from here.
+            </p>
+
+            <p><b>✓  Manage users:</b> If you want to manage registered users you need to go "Dashboard > Users" section from left sidebar. you can manage all users here.</p>
+
+            <p><b>✓  Manage Site Features:</b> If you want to manage your product services you need to go "Dashboard > Service" section from left sidebar. you can manage all option here.
+            </p>
+
+            <p><b>✓  Manage Plans & Assign Feature:</b> If you want to manage your Plans & Features you need to go "Dashboard > Plans" section from left sidebar. you can also assign features to click the "Edit Plan" button manage features for this plan.</p>
+
+            <p><b>✓  Manage Blogs:</b> If you want to add Blog first you need add Blog Category to go "Blog" section from left sidebar navigation and click on the "Add Category" options then you can add Category here in one page CRUD. And then Clink "Blog" section from left sidebar navigation to add "Blog".</p>
+
+            <h4 class="mt-5 mb-2">User</h4>
+
+            <p><b>✓  Manage Chambers:</b> If you want to add Chambers you will see from left sidebar "Chambers" menu and here you will see this manage options when you click. And you can manage Chambers CRUD in an one pages.</p>
+
+            <p><b>✓  Manage Staffs:</b> If you want to manage your Staffs you will see from left sidebar "Staffs" menu and here you will see this manage options when you click. And you can manage Staffs CRUD in an one pages.</p>
+
+            <p><b>✓  Manage Patients:</b> If you want to manage your Patients you will see from left sidebar "Patients" menu and here you will see this manage options when you click. And you can manage Patients CRUD in an one pages.
+            </p>
+
+            <p><b>✓  Manage Departments:</b> If you want to manage your Departments you will see from left sidebar "Departments" menu and here you will see this manage options when you click. And you can manage Departments CRUD in an one pages.
+            </p>
+
+            <p><b>✓  Manage Drugs:</b> If you want to manage your Drugs you will see from left sidebar "Drugs" menu and here you will see this manage options when you click. And you can manage Drugs CRUD in an one pages.
+            </p>
+
+            <p><b>✓  Manage appointments:</b> If you want to manage your appointments you will see from left sidebar "appointments" menu and here you will see this manage options when you click. And you can manage appointments CRUD in an one pages.</p>
+
+            <p><b>✓  Prescriptions Settings:</b> Before creating your first prescrition you can create your "A"</p>
+
+            <p><b>✓  Manage Prescriptions:</b> If you want to manage & add "Prescriptions" you need to click "Prescriptions" section from left sidebar there you see your all Prescriptions list and if you want to create new prescription then click on the "New Prescription" button from top.</p>
+
+            <p><b>✓  Manage Profile, Education & Experiences:</b> If you want to manage & add "Profile, Education & Experiences" you need to click "Profile" section from left sidebar there you see your all option in there.
+            </p>
+
+            <h4 class="mt-5 mb-2">Staff</h4>
+            <p>Staff can access only selected chambers which is assigned by the user. They can access Prescription settings, patients, drugs, appointments & dr profiles but they will not delete any data from their panel</p>
+
+            <h4 class="mt-5 mb-2">Patient</h4>
+            <p>When you create a patient or assign a patient for your prescription & apinments our system automatically generate a patient panel access like below</p>
+
+            <p><b>Username</b>: Patient mobile no <br>
+               <b>Password</b>: 1234</p>
+
+            <p><b>Patient appointments:</b> After login patient panel they can see their all appointments from left sidebar "appointments" sections</p>
+            
+            <p><b>Patient Prescriptions:</b> After creating a prescription for your patients they will see their prescriptions in their panel they can also print prescription from there.
+            </p>
+
+             <hr class="divider">
+
+             <h3>Admin Panel</h3>
+             <img class="img-fluid" src="assets/images/admin_dash.jpg" alt="">   
+          </section>
+        <!-- Quick Install end ============================ -->
+
+          <hr class="divider">
+
+        <!-- Site Settings ============================ -->
+          <section id="doc_site">
+            <h3>Manage Website Settings</h3>
+            <p><b>✓  Manage Website Settings:</b> From left sidebar > Dashboard > Settings you can manage site name, title, email, phone, about, logo, favicon, emails, basic seo options, social links, SMTP emails, preferences & reCaptcha.</p>
+            <img class="img-fluid" src="assets/images/admin_settings.jpg" alt="">
+            <img class="img-fluid" src="assets/images/admin_set2.jpg" alt="">
+            <img class="img-fluid" src="assets/images/admin_set3.jpg" alt="">
+            <img class="img-fluid" src="assets/images/admin_set4.jpg" alt="">
+            <img class="img-fluid" src="assets/images/admin_set5.jpg" alt="">
+
+          </section>
+        <!-- Site Settings end ============================ -->
+
+              <hr class="divider">                
+
+
+        <!-- Payment Settings ============================ -->
+          <section id="doc_payment">
+            <h3>Payment Settings</h3>
+           
+            <p><b>✓  Payment Settings:</b> From left sidebar > Dashboard > Payment Settings you can manage currency, paypal & stripe payment method. You can also receive offline payment from this sections.</p>
+            <img class="img-fluid" src="assets/images/payment_set.jpg" alt="">
+
+          </section>
+        <!-- Payment Settings end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage users ============================ -->
+          <section id="doc_users">
+            <h3>Manage Users</h3>
+           
+            <p><b>✓  Manage Users:</b> From left sidebar > Dashboard > Users you can manage all users here.</p>
+            <img class="img-fluid" src="assets/images/admin_users.jpg" alt="">
+
+          </section>
+        <!-- Payment Settings end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Service ============================ -->
+          <section id="doc_service">
+            <h3>Manage Service</h3>
+           
+            <p><b>✓  Manage Services:</b>From left sidebar > Dashboard > Services you can manage your product Services for home pages.</p>
+            <img class="img-fluid" src="assets/images/admin_features.jpg" alt="">
+
+          </section>
+        <!-- Manage Service end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Plans ============================ -->
+          <section id="doc_plans">
+            <h3>Manage Plans</h3>
+           
+            <p><b>✓  Manage Plans:</b> From left sidebar > Dashboard > Plans you can manage your site packages & feature limits here.</p>
+            <img class="img-fluid" src="assets/images/admin_plan1.jpg" alt="">
+            <img class="img-fluid" src="assets/images/admin_plan2.jpg" alt="">
+
+          </section>
+        <!-- Manage Plans end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Service ============================ -->
+          <section id="doc_pages">
+            <h3>Manage Pages</h3>
+           
+            <p><b>✓  Manage Pages:</b> From Dashboard > Pages you can add, edit & Delete unlimited pages .</p>
+            <img class="img-fluid" src="assets/images/admin_pages.jpg" alt="">
+
+          </section>
+        <!-- Manage Pages end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Faqs ============================ -->
+          <section id="doc_faqs">
+            <h3>Manage Faqs</h3>
+           
+            <p><b>✓  Manage Faqs:</b> From Dashboard > Faqs you can add, edit & Delete unlimited Faqs .</p>
+            <img class="img-fluid" src="assets/images/admin_faqs.jpg" alt="">
+
+          </section>
+        <!-- Manage Faqs end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Blogs ============================ -->
+          <section id="doc_blogs">
+            <h3>Manage Blogs</h3>
+           
+            <p>'Blog' section from dashboard sideber you can add Blog Category from navigation.</p>
+            <img class="img-fluid" src="assets/images/blog_cat.jpg" alt="">
+            <p><b>✓  Add Blog:</b> From Dashboard > Blog > Blog: you can Add, Edit, Delete, Activate or Deactivate Blog from this option.</p>
+            <img class="img-fluid" src="assets/images/blog_post.jpg" alt="">
+
+          </section>
+        <!-- Manage Blogs end ============================ -->
+
+              <hr class="divider">
+
+
+
+
+        <!-- Manage Subscriptions ============================ -->
+          <section id="doc_Subscriptions">
+            <h3 class="mt-5">User Panel</h3>
+            <img class="img-fluid" src="assets/images/user_dash.jpg" alt="">
+
+            <h3>Subscriptions</h3>
+            <p>'Subscriptions' section from dashboard sidebar you upgrade your plan from here to click select button from any plans.</p>
+            <img class="img-fluid" src="assets/images/user_sub.jpg" alt="">
+          </section>
+        <!-- Manage Subscriptions end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Chambers ============================ -->
+          <section id="doc_chamber">
+            <h3>Manage Chambers</h3>
+            <p>'Chambers' section from dashboard sidebar you can add, edit, delete chambers.</p>
+            <img class="img-fluid" src="assets/images/chamber.jpg" alt="">
+            <p>Set default chamber</p>
+            <img class="img-fluid" src="assets/images/chamber_1.jpg" alt="">
+            <p>Switch chamber</p>
+            <img class="img-fluid" src="assets/images/chamber_1.jpg" alt="">
+          </section>
+        <!-- Manage Chambers end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Staffs ============================ -->
+          <section id="doc_staffs">
+            <h3>Manage Staffs</h3>
+            <p>''Staffs' section from dashboard sidebar you can add, edit, delete Staffs.</p>
+            <img class="img-fluid" src="assets/images/staff.jpg" alt="">
+          </section>
+        <!-- Manage Staffs end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Department ============================ -->
+          <section id="doc_department">
+            <h3>Manage Departments</h3>
+            <p>'Departments' section from dashboard sidebar you can add, edit, delete Departments.</p>
+            <img class="img-fluid" src="assets/images/dept.jpg" alt="">
+          </section>
+        <!-- Manage Department end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Patients ============================ -->
+          <section id="doc_patients">
+            <h3>Manage Patients</h3>
+            <p>'Patients' section from dashboard sidebar you can add, edit, delete Patients.</p>
+            <img class="img-fluid" src="assets/images/patient.jpg" alt="">
+          </section>
+        <!-- Manage Patients end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Drugs ============================ -->
+          <section id="doc_drugs">
+            <h3>Manage Drugs</h3>
+            <p>'Drugs' section from dashboard sidebar you can add, edit, delete Drugs.</p>
+            <img class="img-fluid" src="assets/images/drug.jpg" alt="">
+          </section>
+        <!-- Manage Drugs end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Booking Appointments ============================ -->
+          <section id="doc_booking">
+            <h3>Booking Appointments</h3>
+            <p><b>Assign appointment Schedule</b></p>
+            <img class="img-fluid" src="assets/images/assign_ap.jpg" alt="">
+            <p class="text-danger mb-5">You can also enable/disable appointment from public profile</p>
+            <p class="mt-5"><b>Your users can can book appointment in 2 ways</b></p>
+            <p class="mt-5"><b>1. Using user/doctors profile url</b></p>
+            <img class="img-fluid" src="assets/images/auto_ap.jpg" alt="">
+            <p><b>2. Manually assign patient inside user dashboard</b></p>
+            <img class="img-fluid" src="assets/images/manual_ap.jpg" alt="">
+          </section>
+        <!-- Manage Booking Appointments end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Appointment ============================ -->
+          <section id="doc_appointments">
+            <h3>Manage Appointments</h3>
+            <h6>Daily Appoinments</h6>
+            <img class="img-fluid" src="assets/images/daily_ap.jpg" alt="">
+            <h6>Date wise Appoinments</h6>
+            <img class="img-fluid" src="assets/images/date_ap.jpg" alt="">
+          </section>
+        <!-- Manage Appointment end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Prescription Settings ============================ -->
+          <section id="doc_prescription">
+            <h3>Prescriptions Settings</h3>
+            <p>'Prescription Settings' section from dashboard sidebar you can add, edit, delete Clinical Diagnosis, Advises, Additional advise & Diagnosis reports.</p>
+            <img class="img-fluid" src="assets/images/ps_1.jpg" alt="">
+          </section>
+        <!--Prescription Settings end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Prescription ============================ -->
+          <section id="doc_prescripted">
+            <h3>Manage Prescriptions </h3>
+            <p>'Prescriptions' section from dashboard sidebar you can add, edit, delete Prescriptions.</p>
+            <img class="img-fluid" src="assets/images/user_pre.jpg" alt="">
+            <p>You can also create prescriptions from daily appointments.</p>
+            <img class="img-fluid" src="assets/images/user_ap_pre.jpg" alt="">
+          </section>
+        <!-- Manage Prescription end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage Profile ============================ -->
+          <section id="doc_profile">
+            <h3>Manage Profile </h3>
+            <img class="img-fluid" src="assets/images/user_ps.jpg" alt="">
+            <img class="img-fluid" src="assets/images/user_p.jpg" alt="">
+            <img class="img-fluid" src="assets/images/user_p.jpg" alt="">
+            <p>'Profile' section from dashboard sidebar you can manage your profile, educations & experiences.
+            <b>Profile</b></p>
+            <img class="img-fluid" src="assets/images/user_pd.jpg" alt="">
+            <h6>Educations</h6>
+            <img class="img-fluid" src="assets/images/user_pe.jpg" alt="">
+            <h6>Experiences</h6>
+            <img class="img-fluid" src="assets/images/user_px.jpg" alt="">
+          </section>
+        <!-- Manage Profile end ============================ -->
+
+              <hr class="divider">
+
+
+
+        <!-- Manage Profile ============================ -->
+          <section id="docs_zoom">
+            <h3>Zoom Integration </h3>
+            <h6><b>Step 1: (Admin Panel)</b> Obtain Zoom API Keys & Integrate Zoom with Doxe</h6>
+            <a target="_blank" href="https://marketplace.zoom.us/">https://marketplace.zoom.us/</a><br><br>
+
+            <div class="embed-responsive embed-responsive-16by9 mb-5">
+              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/870029529" allowfullscreen></iframe>
+            </div> 
+
+            <p class="alert alert-info"><b>Note:</b> We migrated our zoom API App from <b class="text-danger">JWT (Deprecated by ZOOM)</b> to <b class="text-success">Server to Server OAuth</b> so now you don't need to provide any meeting id and password for start a zoom meeting.</p>
+
+            <h6><b>Step 2 (User Panel):</b> Create a zoom meeting and start online consultion with patient</h6>
+            <div class="embed-responsive embed-responsive-16by9 mb-5">
+              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/870030395" allowfullscreen></iframe>
+            </div>
+          </section>
+        <!-- Manage Profile end ============================ -->
+
+              <hr class="divider">
+
+
+
+
+
+      <!--Manage Products Start  -->
+          <section id="docs_payouts">
+            <h3><b>Manage Payouts </b></h3>
+            <p class="text-danger">Note: Payouts module is only available for extended license holders</p><br>
+            <p>Using payouts module admin will receive appointments payment to admin account. And user will send payout request to withdraw their payment using payout method.</p><br>
+            <p><b>Admin - Payout Settings</b></p>
+
+            <p>Login as admin go to Payouts > Payout Settings from left sidebar, <b>Enable Payout module</b> set <b>Minimum payout amount, Commission rate</b> & <b>Payout methods</b> (payout method will be used for withdraw user payments). Now you are ready to receive users booking payments to directly admin gateways and balance will be added on the Users account (after apply the comission rate).</p>
+
+            <img class="img-fluid " src="assets/images/payout_settings.png" alt=""><br><br>
+
+            <p><b>User - Setup Payout Accounts</b></p>
+            <p>Go to user panel Payouts > Set Payout Account from left sidebar, users will see their payout methods for setup to withdraw their payments</p>
+            <img class="img-fluid " src="assets/images/set_account.png" alt=""><br><br>
+
+            <p><b>User - Payouts</b></p>
+            <p>Go to user panel Payouts > Payouts from left sidebar, users will see their <b>Payout history, Total Earnings, Withdraw & Balance</b></p><br>
+            <img class="img-fluid " src="assets/images/user_payouts.png" alt=""><br><br>
+
+            <p><b>User - Send Payout Request</b></p>
+            <p>When users balance is greater than the admin minimum payout amount they will see the Send Payout Request button to send a withdrawal request to admin
+            </p><br>
+            <img class="img-fluid " src="assets/images/request_payout.png" alt=""><br><br>
+
+            <p><b>Admin - Payouts Requests</b></p>
+            <p>After sending the users payout request admin will see all requests on admin panel > Payouts > Payout Requests from left sidebar, Admin can see withdrawal method detailed info to pay the users and then click the Completed to mark as paid this request, After that users balance will be updated automatically ()</p>
+            <img class="img-fluid " src="assets/images/payout_requests.png" alt=""><br><br>
+
+            <p><b>Admin - Add Payout (Manually)</b></p>
+            <p>From admin panel > Payouts > Add Payout admin can create a manual user payout request</p>
+            <img class="img-fluid " src="assets/images/add_payout.png" alt=""><br><br>
+          </section>
+      <!--Manage Products  End-->
+
+        <hr class="divider">
+
+
+
+
+
+         <!--Manage Customer Start  -->
+          <section id="docs_cdomain">
+            <h3 class="mb-1"><b>Custom Domains </b></h3>
+            <p>Custom domain will allows your users to use their own domain name instead of the default domain url. This feature will provides your users to more control over their online identity and branding their business.</p><br>
+
+            <div class="alert alert-warning">
+             <i class="fas fa-info-circle"></i> Before start with the custom domain feature make sure this script is installed with your primary domain, any sub domain or subfolder will not work for this feature.
+            </div>
+
+            <p><b>Step 1 (Admin):</b> Login as a admin go to <code>left sidebar > Plans</code> Click Edit for each plan and enable the custom domain feature for each plan, now your users under these packages will access the custom domain feature</p><br>
+            
+            <p><b>Step 2 (Admin):</b> Now go to <code>left sidebar > Custom Domain > settings</code> Add your cPanel/Server IP address in this form</p><br>
+            <img class="img-fluid " src="assets/images/cdomain1.png" alt=""><br><br>
+
+            <p><b>Step 3 (User):</b> Login as a user go to <code>left sidebar > Custom Domain</code> Send a custom domain request to admin once user domain is approved by admin user will be able to use their own domain</p><br>
+            <img class="img-fluid " src="assets/images/cdomain3.png" alt=""><br>
+            <img class="img-fluid " src="assets/images/cdomain4.png" alt=""><br><br>
+
+            <p><b>Step 4 (Admin):</b> Login as a admin go to <code>left sidebar > Custom Domain > requests</code> There you will see all your users requesed domain, once yor approved your domain then this will be go for live</p><br>
+            <img class="img-fluid " src="assets/images/cdomain2.png" alt=""><br><br>
+
+            <p><b>Step 5 (Admin):</b> After approved custom domain request you need to add this user > custom domain as a <code>Domain Aliases</code> Please login to your server go to domains > Aliases section</p><br>
+            <img class="img-fluid " src="assets/images/cdomain5.png" alt=""><br><br>
+            <img class="img-fluid " src="assets/images/cdomain6.png" alt=""><br><br>
+          </section>
+      <!--Manage Customer  End-->
+
+        <hr class="divider">
+
+
+
+
+
+
+        <!-- Manage Profile ============================ -->
+          <section id="doc_verify">
+            <h3>Doctors Verification </h3>
+            
+            <p>Login as a admin go to settings > Doctors Verification tab: Enable the verification toggle to activate the verification 
+            system.</p>
+            <img class="img-fluid" src="assets/images/admin_verify.png" alt=""><br> <br>
+
+            <p><b> Users </b> will see the verification popup on every page until you submitted the files</p>
+            <img class="img-fluid" src="assets/images/user_verify.png" alt=""><br><br>
+
+            <p>From <b>Admin panel > users</b> section you will see the verify button to submitted files</p>
+            <img class="img-fluid" src="assets/images/admin_verify_btn.png" alt=""><br>
+            <img class="img-fluid" src="assets/images/user_verify_submit.png" alt=""><br>
+
+          </section>
+        <!-- Manage Profile end ============================ -->
+
+          <hr class="divider">
+
+
+
+
+        <!-- Manage staff ============================ -->
+          <section id="doc_staffp">
+            <h3>Staff Panel</h3>
+            <p><b>Staff can access only selected chambers or All chambers which is assigned by the user.</b></p>
+            <img class="img-fluid" src="assets/images/staff_dash.jpg" alt="">
+            <p><b>Staff can access Prescription settings, patients, drugs, appointments & dr profiles but they will not delete any data from their panel</b></p>
+            <img class="img-fluid" src="assets/images/staff_access.jpg" alt="">
+          </section>
+        <!-- Manage staff end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage patient ============================ -->
+          <section id="doc_patientp">
+            <h3>Patient Panel</h3>
+            <p><b>All Upcomming appoinments will be showing in there</b></p>
+            <img class="img-fluid" src="assets/images/patient_dash.jpg" alt="">
+            <p><b>Appoinments - Patient can see their all appoinments here</b></p>
+            <img class="img-fluid" src="assets/images/patient_ap.jpg" alt="">
+            <p><b>Prescription - Patient can see their all Prescriptions here, they can also print their prescription.</b></p>
+            <img class="img-fluid" src="assets/images/patient_pre.jpg" alt="">
+            <img class="img-fluid" src="assets/images/patient_pre_p.jpg" alt="">
+          </section>
+        <!-- Manage patient end ============================ -->
+
+              <hr class="divider">
+
+
+         <!-- Add Cron Jobs for expire payments ============================ -->
+          <section id="doc_corn">
+            <h3>Setup cron jobs</h3>
+            <p>For auto check your expire payments for once a day you can set a cron job to manage this options. Follow the steps:
+            </p>
+            <p><b>Step 1: Go to your Cpanel and click cron jobs.</b></p>
+            <img class="img-fluid" src="assets/images/cron1.jpg" alt="">
+            <p class="mt-2"><b>Step 2: Add new cron job.</b></p>
+            <img class="img-fluid" src="assets/images/cron2.jpg" alt="">
+
+            <p class="mt-2">Add below command to your cron command line:</p>
+            <code>wget http://yourdomain.com/cron/expire_payments</code>
+            <p class="mt-1">Click Add New Cron Job button.</p>
+            
+          </section>
+        <!-- Add Cron Jobs for expire payments end ============================ -->
+
+              <hr class="divider">
+
+
+        <!-- Manage faq ============================ -->
+          <section id="doc_faq">
+            <h3>Frequently asked questions</h3>
+
+            <p class="font-weight-700 mt-4">After installation when I click on any link it returns 404 Not Found, why?</p>
+            <p> There are few reasons, this can be happend </p>
+            <ul>
+              <li class="mt-0">You do not have the <code>.htaccess</code> file uploaded on your project root folder</li>
+              <li class="mt-0">Your web host provider does not have <code>mod_rewrite</code> enabled for Apache.</li>
+              <li class="mt-0">The <code>.htaccess</code> file exists, but the content is not the same as the original file from my product.</li>
+            </ul>
+
+
+            <p class="font-weight-700 mt-4">Emails are not sending / I have errors with my SMTP.</p>
+            <p> All errors related to the email sending system are caused by either</p>
+            <ul>
+              <li class="mt-0">Incorrect SMTP credentials</li>
+              <li class="mt-0">not properly working SMTP server, or web host blocking the actual SMTP connection.</li>
+              <li class="mt-0">For any of these issues, contact your SMTP or web host provider.</li>
+            </ul>
+
+
+            <p class="font-weight-700 mt-4">How to customize the frontend landing page, header or footer?</p>
+            <p>You can customize landing page contents from <code>application <i class="fas fa-long-arrow-alt-right"></i> views <i class="fas fa-long-arrow-alt-right"></i> home.php</code></p>
+            <p>You can customize header / footer from <code>application <i class="fas fa-long-arrow-alt-right"></i> views <i class="fas fa-long-arrow-alt-right"></i> include <i class="fas fa-long-arrow-alt-right"></i> header.php / footer.php</code></p>
+
+
+            <p class="font-weight-700 mt-4">Why payment gatewats are missing in my site? </p>
+            <p>Please make sure you have purchased the extended license for this script, If you purchased a regular license then you will not have access the payment gateways, check our item details page or <a class="popup-img" href="http://aoxio.originlabsoft.com/item/license1.jpg" href="http://aoxio.originlabsoft.com/item/license1.jpg">See license terms here</a> </p>
+
+
+            <p class="font-weight-700 mt-4">How can I add a new language and translate texts?</p>
+            <p>You can add new language from <code>Admin Panel <i class="fas fa-long-arrow-alt-right"></i> Language <i class="fas fa-long-arrow-alt-right"></i> Add New Language</code> form, After that you can translate all texts from Admin Panel -> Language list > Edit Values</p>
+
+
+            <p class="font-weight-700 mt-4">How can I update text on the website?</p>
+            <p>Any static text from the website can be changed from the <code>Admin Panel <i class="fas fa-long-arrow-alt-right"></i> Language <i class="fas fa-long-arrow-alt-right"></i> Edit Values</code></p>
+
+
+            <p class="font-weight-700 mt-4">How can I set my own language as a default?</p>
+            <p>You can set your language as a default from <code>Admin Panel <i class="fas fa-long-arrow-alt-right"></i> Language <i class="fas fa-long-arrow-alt-right"></i> Set default language</code> dropdown to update it </p>
+
+          </section>
+        <!-- Manage faq end ============================ -->
+
+
+
+
+      
+        </div>
+      </div>
+
+
+
+
+
+
+  </div>
+  <!-- Content end --> 
+
+
+
+  </div>
+  <!-- Document Wrapper end --> 
+
+  <!-- Back To Top --> 
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+  ============================ -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script> 
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+  <!-- Easing --> 
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+  <!-- Magnific Popup --> 
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+</body>
+</html>
+
